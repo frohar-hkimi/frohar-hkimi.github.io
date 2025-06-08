@@ -1,1 +1,166 @@
-<h1>My Portfolio</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Your Name - Data Analyst Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+
+    <header class="hero">
+        <div id="particles-js"></div>
+        <div class="hero-content">
+            <h1>Frohar Hkimi</h1>
+            <p>Data Analyst | Turning Data into Insights Using SQL, Python, dbt, AWS & Grafana</p>
+            <a href="#about" class="cta-button">View My Work</a>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main class="main-background"style="position: relative;">
+        
+
+        <div class="main-content">
+        <section id="about" class="full-page-section">
+            <h2>About Me</h2>
+            <p>I’m Frohar, a data analyst at Kantar. 
+                I love digging into messy data to find bugs others miss, building automations that save people time, and uncovering insights that actually drive decisions. I’m always curious about what more I can do with data — right now, I’m exploring time series forecasting, NLP, and deep learning because the fun (and the challenge) never ends.
+            </p>
+        </section>
+
+        <section id="projects">
+            <h2>Selected Projects</h2>
+
+            <div class="project">
+                <h3>Interactive Sales Dashboard</h3>
+                <p>Developed a dynamic sales dashboard in Power BI that helped the executive team monitor KPIs in real time.</p>
+                <img src="images/sales_dashboard_sample.jpg" alt="Sales Dashboard Sample" />
+            </div>
+
+            <div class="project">
+                <h3>Customer Churn Analysis</h3>
+                <p>Performed customer segmentation and built a predictive model for churn using Python and scikit-learn.</p>
+                <img src="images/churn_model_chart.jpg" alt="Customer Churn Model" />
+            </div>
+
+            <!-- Add more projects as needed -->
+
+        </section>
+
+        <section id="skills">
+            <h2>Skills & Tools</h2>
+            <ul>
+                <li>Python (Pandas, NumPy, Matplotlib, Seaborn, scikit-learn)</li>
+                <li>SQL (PostgreSQL, MySQL, Redshift)</li>
+                <li>Power BI / Tableau</li>
+                <li>Excel (Advanced: PivotTables, Power Query)</li>
+                <li>Data Storytelling & Visualization</li>
+                <li>Statistical Analysis</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Get in Touch</h2>
+            <p>Email: your.email@example.com</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/your-profile" target="_blank">your-profile</a></p>
+            <p>GitHub: <a href="https://github.com/your-username" target="_blank">your-username</a></p>
+        </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Your Name | Data Analyst</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script>
+particlesJS('particles-js', {
+  "particles": {
+    "number": {
+      "value": 80,
+      "density": {
+        "enable": true,
+        "value_area": 800
+      }
+    },
+    "color": {
+      "value": "#666666"  // grey dots
+    },
+    "shape": {
+      "type": "polygon",
+      "stroke": {
+        "width": 0,
+        "color": "#000000"
+      },
+      "polygon": {
+        "nb_sides": 6    // hexagons, change to 5 or 4 for other shapes
+      }
+    },
+    "opacity": {
+      "value": 1,
+      "random": false
+    },
+    "size": {
+      "value": 3,
+      "random": true
+    },
+    "line_linked": {
+      "enable": true,
+      "distance": 150,
+      "color": "#999999",   // grey lines
+      "opacity": 0.5,
+      "width": 1
+    },
+    "move": {
+      "enable": true,
+      "speed": 2,
+      "direction": "none",
+      "random": false,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "grab"
+      },
+      "onclick": {
+        "enable": true,
+        "mode": "push"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 200,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "push": {
+        "particles_nb": 4
+      }
+    }
+  },
+  "retina_detect": true
+});
+
+
+</script>
+
+</body>
+</html>
